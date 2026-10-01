@@ -1,0 +1,146 @@
+[
+  {
+    "id": "proj-001",
+    "project": "TG bot memory switch ON OFF",
+    "category": "telegram",
+    "text": "Telegram-бот на aiogram позволяет включать и выключать долговременную память отдельными командами."
+  },
+  {
+    "id": "proj-002",
+    "project": "TG bot memory switch ON OFF",
+    "category": "database",
+    "text": "История диалога Telegram-бота сохраняется в SQLite отдельно для каждого пользователя."
+  },
+  {
+    "id": "proj-003",
+    "project": "TG bot memory switch ON OFF",
+    "category": "ai",
+    "text": "Бот формирует структурированные ответы языковой модели и работает через ProxyAPI."
+  },
+  {
+    "id": "proj-004",
+    "project": "AI agent with QR",
+    "category": "telegram",
+    "text": "Telegram-агент умеет создавать QR-коды по запросу пользователя и отправлять их как файлы."
+  },
+  {
+    "id": "proj-005",
+    "project": "AI agent with QR",
+    "category": "security",
+    "text": "Файлы и QR-коды хранятся в отдельных каталогах пользователей с защитой от выхода за разрешённый путь."
+  },
+  {
+    "id": "proj-006",
+    "project": "AI agent with QR",
+    "category": "integrations",
+    "text": "ИИ-агент вызывает инструменты для погоды, курсов криптовалют, поиска и генерации QR-кодов."
+  },
+  {
+    "id": "proj-007",
+    "project": "auto service AI triage",
+    "category": "fastapi",
+    "text": "FastAPI-сервис принимает обращения клиентов автосервиса через endpoint триажа."
+  },
+  {
+    "id": "proj-008",
+    "project": "auto service AI triage",
+    "category": "ai",
+    "text": "Сервис классифицирует автомобильную проблему, определяет приоритет и готовит черновик ответа клиенту."
+  },
+  {
+    "id": "proj-009",
+    "project": "auto service AI triage",
+    "category": "database",
+    "text": "Результаты обработки обращений сохраняются в базе данных Turso с резервным копированием."
+  },
+  {
+    "id": "proj-010",
+    "project": "auto service AI triage",
+    "category": "deployment",
+    "text": "Учебное API опубликовано на Render и имеет автоматические проверки через GitHub Actions."
+  },
+  {
+    "id": "proj-011",
+    "project": "Loki Grafana test",
+    "category": "monitoring",
+    "text": "Проект собирает логи приложения в Loki и показывает их в интерфейсе Grafana."
+  },
+  {
+    "id": "proj-012",
+    "project": "Loki Grafana test",
+    "category": "logging",
+    "text": "Логи отправляются в Loki напрямую HTTP-запросами и содержат метки приложения и уровня события."
+  },
+  {
+    "id": "proj-013",
+    "project": "Loki Grafana test",
+    "category": "docker",
+    "text": "Loki и Grafana запускаются совместно с помощью Docker Compose."
+  },
+  {
+    "id": "proj-014",
+    "project": "Study Projects MCP",
+    "category": "mcp",
+    "text": "MCP-сервер предоставляет ИИ-ассистенту инструменты для работы с каталогом учебных проектов."
+  },
+  {
+    "id": "proj-015",
+    "project": "Study Projects MCP",
+    "category": "database",
+    "text": "Каталог проектов хранится в SQLite, а исходные данные для публикации находятся в JSON-файле."
+  },
+  {
+    "id": "proj-016",
+    "project": "Study Projects MCP",
+    "category": "search",
+    "text": "Инструменты MCP позволяют искать проекты по названию, технологии и статусу выполнения."
+  },
+  {
+    "id": "proj-017",
+    "project": "dialogue rework and brief",
+    "category": "documents",
+    "text": "Программа преобразует текстовый диалог в структурированный JSON с помощью языковой модели."
+  },
+  {
+    "id": "proj-018",
+    "project": "dialogue rework and brief",
+    "category": "reports",
+    "text": "По результатам анализа диалога формируются два вида PDF-отчётов через Jinja2 и WeasyPrint."
+  },
+  {
+    "id": "proj-019",
+    "project": "project debug",
+    "category": "flask",
+    "text": "Учебный Flask API был восстановлен после аудита проблем исходного кода."
+  },
+  {
+    "id": "proj-020",
+    "project": "project debug",
+    "category": "security",
+    "text": "В проекте исправлены SQL-инъекции, небезопасная работа с файлами и проблемы потокобезопасности."
+  },
+  {
+    "id": "proj-021",
+    "project": "project debug",
+    "category": "docker",
+    "text": "Flask API можно собрать и запустить в Docker-контейнере по инструкции из README."
+  },
+  {
+    "id": "proj-022",
+    "project": "chains of prompts",
+    "category": "langchain",
+    "text": "Цепочка из четырёх этапов анализирует требования и проектирует архитектуру приложения."
+  },
+  {
+    "id": "proj-023",
+    "project": "chains of prompts",
+    "category": "validation",
+    "text": "Промежуточные результаты цепочки проверяются структурированными Pydantic-схемами."
+  },
+  {
+    "id": "proj-024",
+    "project": "TG embedding bot",
+    "category": "vector-search",
+    "text": "Telegram-бот превращает вопросы в embeddings и ищет связанные учебные проекты в Pinecone по смысловой близости."
+  }
+]

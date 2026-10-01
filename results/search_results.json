@@ -1,0 +1,372 @@
+{
+  "created_at": "2026-09-25T12:55:02+03:00",
+  "index_name": "tg-embedding-projects",
+  "namespace": "educational-projects",
+  "embedding_model": "text-embedding-3-small",
+  "embedding_dimension": 1536,
+  "uploaded_vectors": 24,
+  "queries": [
+    {
+      "query": "Какой проект помогает находить информацию по смыслу, а не по точным словам?",
+      "answer_allowed": true,
+      "matches": [
+        {
+          "id": "proj-024",
+          "score": 0.428841,
+          "project": "TG embedding bot",
+          "text": "Telegram-бот превращает вопросы в embeddings и ищет связанные учебные проекты в Pinecone по смысловой близости."
+        },
+        {
+          "id": "proj-016",
+          "score": 0.335611,
+          "project": "Study Projects MCP",
+          "text": "Инструменты MCP позволяют искать проекты по названию, технологии и статусу выполнения."
+        },
+        {
+          "id": "proj-003",
+          "score": 0.305611,
+          "project": "TG bot memory switch ON OFF",
+          "text": "Бот формирует структурированные ответы языковой модели и работает через ProxyAPI."
+        },
+        {
+          "id": "proj-017",
+          "score": 0.280514,
+          "project": "dialogue rework and brief",
+          "text": "Программа преобразует текстовый диалог в структурированный JSON с помощью языковой модели."
+        },
+        {
+          "id": "proj-015",
+          "score": 0.256537,
+          "project": "Study Projects MCP",
+          "text": "Каталог проектов хранится в SQLite, а исходные данные для публикации находятся в JSON-файле."
+        }
+      ]
+    },
+    {
+      "query": "Где можно посмотреть мониторинг и анализ логов приложения?",
+      "answer_allowed": true,
+      "matches": [
+        {
+          "id": "proj-011",
+          "score": 0.530827,
+          "project": "Loki Grafana test",
+          "text": "Проект собирает логи приложения в Loki и показывает их в интерфейсе Grafana."
+        },
+        {
+          "id": "proj-012",
+          "score": 0.490191,
+          "project": "Loki Grafana test",
+          "text": "Логи отправляются в Loki напрямую HTTP-запросами и содержат метки приложения и уровня события."
+        },
+        {
+          "id": "proj-022",
+          "score": 0.353125,
+          "project": "chains of prompts",
+          "text": "Цепочка из четырёх этапов анализирует требования и проектирует архитектуру приложения."
+        },
+        {
+          "id": "proj-016",
+          "score": 0.346005,
+          "project": "Study Projects MCP",
+          "text": "Инструменты MCP позволяют искать проекты по названию, технологии и статусу выполнения."
+        },
+        {
+          "id": "proj-013",
+          "score": 0.331352,
+          "project": "Loki Grafana test",
+          "text": "Loki и Grafana запускаются совместно с помощью Docker Compose."
+        }
+      ]
+    },
+    {
+      "query": "Какой сервис автоматически разбирает обращения клиентов автосервиса?",
+      "answer_allowed": true,
+      "matches": [
+        {
+          "id": "proj-008",
+          "score": 0.670605,
+          "project": "auto service AI triage",
+          "text": "Сервис классифицирует автомобильную проблему, определяет приоритет и готовит черновик ответа клиенту."
+        },
+        {
+          "id": "proj-007",
+          "score": 0.550199,
+          "project": "auto service AI triage",
+          "text": "FastAPI-сервис принимает обращения клиентов автосервиса через endpoint триажа."
+        },
+        {
+          "id": "proj-009",
+          "score": 0.384125,
+          "project": "auto service AI triage",
+          "text": "Результаты обработки обращений сохраняются в базе данных Turso с резервным копированием."
+        },
+        {
+          "id": "proj-006",
+          "score": 0.365454,
+          "project": "AI agent with QR",
+          "text": "ИИ-агент вызывает инструменты для погоды, курсов криптовалют, поиска и генерации QR-кодов."
+        },
+        {
+          "id": "proj-014",
+          "score": 0.36399,
+          "project": "Study Projects MCP",
+          "text": "MCP-сервер предоставляет ИИ-ассистенту инструменты для работы с каталогом учебных проектов."
+        }
+      ]
+    },
+    {
+      "query": "В каком проекте бот умеет создавать QR-коды и хранить пользовательские файлы?",
+      "answer_allowed": true,
+      "matches": [
+        {
+          "id": "proj-005",
+          "score": 0.636047,
+          "project": "AI agent with QR",
+          "text": "Файлы и QR-коды хранятся в отдельных каталогах пользователей с защитой от выхода за разрешённый путь."
+        },
+        {
+          "id": "proj-004",
+          "score": 0.589305,
+          "project": "AI agent with QR",
+          "text": "Telegram-агент умеет создавать QR-коды по запросу пользователя и отправлять их как файлы."
+        },
+        {
+          "id": "proj-015",
+          "score": 0.480199,
+          "project": "Study Projects MCP",
+          "text": "Каталог проектов хранится в SQLite, а исходные данные для публикации находятся в JSON-файле."
+        },
+        {
+          "id": "proj-003",
+          "score": 0.45371,
+          "project": "TG bot memory switch ON OFF",
+          "text": "Бот формирует структурированные ответы языковой модели и работает через ProxyAPI."
+        },
+        {
+          "id": "proj-006",
+          "score": 0.406956,
+          "project": "AI agent with QR",
+          "text": "ИИ-агент вызывает инструменты для погоды, курсов криптовалют, поиска и генерации QR-кодов."
+        }
+      ]
+    },
+    {
+      "query": "Какой проект показывает работу API в Docker-контейнере?",
+      "answer_allowed": true,
+      "matches": [
+        {
+          "id": "proj-021",
+          "score": 0.578255,
+          "project": "project debug",
+          "text": "Flask API можно собрать и запустить в Docker-контейнере по инструкции из README."
+        },
+        {
+          "id": "proj-013",
+          "score": 0.433608,
+          "project": "Loki Grafana test",
+          "text": "Loki и Grafana запускаются совместно с помощью Docker Compose."
+        },
+        {
+          "id": "proj-010",
+          "score": 0.421298,
+          "project": "auto service AI triage",
+          "text": "Учебное API опубликовано на Render и имеет автоматические проверки через GitHub Actions."
+        },
+        {
+          "id": "proj-011",
+          "score": 0.371385,
+          "project": "Loki Grafana test",
+          "text": "Проект собирает логи приложения в Loki и показывает их в интерфейсе Grafana."
+        },
+        {
+          "id": "proj-003",
+          "score": 0.370458,
+          "project": "TG bot memory switch ON OFF",
+          "text": "Бот формирует структурированные ответы языковой модели и работает через ProxyAPI."
+        }
+      ]
+    }
+  ],
+  "negative_queries": [
+    {
+      "query": "Кто написал роман Война и мир?",
+      "answer_allowed": false,
+      "matches": [
+        {
+          "id": "proj-017",
+          "score": 0.122594,
+          "project": "dialogue rework and brief",
+          "text": "Программа преобразует текстовый диалог в структурированный JSON с помощью языковой модели."
+        },
+        {
+          "id": "proj-010",
+          "score": 0.097304,
+          "project": "auto service AI triage",
+          "text": "Учебное API опубликовано на Render и имеет автоматические проверки через GitHub Actions."
+        },
+        {
+          "id": "proj-018",
+          "score": 0.091405,
+          "project": "dialogue rework and brief",
+          "text": "По результатам анализа диалога формируются два вида PDF-отчётов через Jinja2 и WeasyPrint."
+        },
+        {
+          "id": "proj-012",
+          "score": 0.082006,
+          "project": "Loki Grafana test",
+          "text": "Логи отправляются в Loki напрямую HTTP-запросами и содержат метки приложения и уровня события."
+        },
+        {
+          "id": "proj-013",
+          "score": 0.080799,
+          "project": "Loki Grafana test",
+          "text": "Loki и Grafana запускаются совместно с помощью Docker Compose."
+        }
+      ]
+    },
+    {
+      "query": "Какая погода завтра в Москве?",
+      "answer_allowed": false,
+      "matches": [
+        {
+          "id": "proj-006",
+          "score": 0.201126,
+          "project": "AI agent with QR",
+          "text": "ИИ-агент вызывает инструменты для погоды, курсов криптовалют, поиска и генерации QR-кодов."
+        },
+        {
+          "id": "proj-004",
+          "score": 0.14806,
+          "project": "AI agent with QR",
+          "text": "Telegram-агент умеет создавать QR-коды по запросу пользователя и отправлять их как файлы."
+        },
+        {
+          "id": "proj-017",
+          "score": 0.12403,
+          "project": "dialogue rework and brief",
+          "text": "Программа преобразует текстовый диалог в структурированный JSON с помощью языковой модели."
+        },
+        {
+          "id": "proj-009",
+          "score": 0.121864,
+          "project": "auto service AI triage",
+          "text": "Результаты обработки обращений сохраняются в базе данных Turso с резервным копированием."
+        },
+        {
+          "id": "proj-022",
+          "score": 0.119754,
+          "project": "chains of prompts",
+          "text": "Цепочка из четырёх этапов анализирует требования и проектирует архитектуру приложения."
+        }
+      ]
+    },
+    {
+      "query": "Как приготовить борщ?",
+      "answer_allowed": false,
+      "matches": [
+        {
+          "id": "proj-021",
+          "score": 0.185166,
+          "project": "project debug",
+          "text": "Flask API можно собрать и запустить в Docker-контейнере по инструкции из README."
+        },
+        {
+          "id": "proj-011",
+          "score": 0.17315,
+          "project": "Loki Grafana test",
+          "text": "Проект собирает логи приложения в Loki и показывает их в интерфейсе Grafana."
+        },
+        {
+          "id": "proj-013",
+          "score": 0.172967,
+          "project": "Loki Grafana test",
+          "text": "Loki и Grafana запускаются совместно с помощью Docker Compose."
+        },
+        {
+          "id": "proj-015",
+          "score": 0.170772,
+          "project": "Study Projects MCP",
+          "text": "Каталог проектов хранится в SQLite, а исходные данные для публикации находятся в JSON-файле."
+        },
+        {
+          "id": "proj-003",
+          "score": 0.139922,
+          "project": "TG bot memory switch ON OFF",
+          "text": "Бот формирует структурированные ответы языковой модели и работает через ProxyAPI."
+        }
+      ]
+    },
+    {
+      "query": "Сколько спутников у планеты Марс?",
+      "answer_allowed": false,
+      "matches": [
+        {
+          "id": "proj-012",
+          "score": 0.174916,
+          "project": "Loki Grafana test",
+          "text": "Логи отправляются в Loki напрямую HTTP-запросами и содержат метки приложения и уровня события."
+        },
+        {
+          "id": "proj-006",
+          "score": 0.156238,
+          "project": "AI agent with QR",
+          "text": "ИИ-агент вызывает инструменты для погоды, курсов криптовалют, поиска и генерации QR-кодов."
+        },
+        {
+          "id": "proj-015",
+          "score": 0.155538,
+          "project": "Study Projects MCP",
+          "text": "Каталог проектов хранится в SQLite, а исходные данные для публикации находятся в JSON-файле."
+        },
+        {
+          "id": "proj-003",
+          "score": 0.145775,
+          "project": "TG bot memory switch ON OFF",
+          "text": "Бот формирует структурированные ответы языковой модели и работает через ProxyAPI."
+        },
+        {
+          "id": "proj-024",
+          "score": 0.143715,
+          "project": "TG embedding bot",
+          "text": "Telegram-бот превращает вопросы в embeddings и ищет связанные учебные проекты в Pinecone по смысловой близости."
+        }
+      ]
+    },
+    {
+      "query": "Какой проект использует Kubernetes?",
+      "answer_allowed": false,
+      "matches": [
+        {
+          "id": "proj-013",
+          "score": 0.361165,
+          "project": "Loki Grafana test",
+          "text": "Loki и Grafana запускаются совместно с помощью Docker Compose."
+        },
+        {
+          "id": "proj-011",
+          "score": 0.35566,
+          "project": "Loki Grafana test",
+          "text": "Проект собирает логи приложения в Loki и показывает их в интерфейсе Grafana."
+        },
+        {
+          "id": "proj-015",
+          "score": 0.341527,
+          "project": "Study Projects MCP",
+          "text": "Каталог проектов хранится в SQLite, а исходные данные для публикации находятся в JSON-файле."
+        },
+        {
+          "id": "proj-022",
+          "score": 0.315068,
+          "project": "chains of prompts",
+          "text": "Цепочка из четырёх этапов анализирует требования и проектирует архитектуру приложения."
+        },
+        {
+          "id": "proj-016",
+          "score": 0.308453,
+          "project": "Study Projects MCP",
+          "text": "Инструменты MCP позволяют искать проекты по названию, технологии и статусу выполнения."
+        }
+      ]
+    }
+  ]
+}
